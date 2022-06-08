@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel button:hover,
@@ -288,7 +288,7 @@ q {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .navbar {
