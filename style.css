@@ -788,11 +788,11 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #ee682b;
+    background: #cb4b10;
     color: #FFFFFF!important;
 }
 
@@ -810,7 +810,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #ee682b!important;
+    color: #cb4b10!important;
 }
 
 .ltc-atomic-tangerine:hover {
