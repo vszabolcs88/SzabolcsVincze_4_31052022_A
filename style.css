@@ -15,7 +15,7 @@ button {
 
 .image-resize-mode {
     width: 100px;
-    height: auto;
+    height: 100%;
 }
 
 a:hover {
