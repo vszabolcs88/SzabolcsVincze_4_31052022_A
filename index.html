@@ -11,10 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css"  rel="preload" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"  rel="preload" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" rel="preload" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css"  rel="preload" href="style.css">
+
+
+	<link rel="stylesheet" type="text/css"  rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"  rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" rel="stylesheet" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css"  rel="stylesheet" href="style.css">
 
     <title>GoMikeDesigns</title>
 
@@ -61,7 +67,9 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/atlanta-web-designer-mike.webp" class="center-block image-resize-mode" width="100" alt="Animated image about Mike"/>
+				<div class="img_container center-block">
+					<img src="img/atlanta-web-designer-mike.webp" class="image-resize-mode" alt="Animated image about Mike"/>
+				</div>
 				<h1 class="text-center hero-bloc-text tc-white ">
 					I'm Mike.
 				</h1>
@@ -261,11 +269,11 @@
 </div>
 <!-- Main container END -->
 
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jquery.touchSwipe.min.js"></script>
-	<script src="./js/gmaps.min.js"></script>
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/gmaps.min.js" defer></script>
     
 
 </body>
